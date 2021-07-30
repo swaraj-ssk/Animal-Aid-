@@ -45,8 +45,7 @@ app.get("/contact", function(req,res){
   res.render("contact",{Status: msg});
 });
 
-// 1e0aed20b7d705708a2e1cbde6b6bee9-us6 : API key
-// a709c57e81 : List id
+
 
 // Newsletter subscription
 
@@ -69,15 +68,15 @@ app.post("/join",function(req,res){
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us6.api.mailchimp.com/3.0/lists/70bac0537b" ;
+  const url = "https://us6.api.mailchimp.com/3.0/lists/__ID__" ;
 
   const options = {
-    url:"https://us6.api.mailchimp.com/3.0/lists/70bac0537b" ,
+    url:"https://us6.api.mailchimp.com/3.0/lists/__ID__" ,
     method: "POST",
     headers:{
-      Authorization: 'auth 6a962063092c7457a85ede73edfb5527-us6'
+      Authorization: 'auth __API_KEY__-us6'
     },
-    // auth: "Swaraj2001:6a962063092c7457a85ede73edfb5527-us6" ,
+   
     body: jsonData
   }
 
