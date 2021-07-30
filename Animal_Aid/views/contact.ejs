@@ -1,0 +1,68 @@
+<%- include("partials/header.ejs") %>
+<!-- -------Start--------- -->
+    </div>
+</section>
+
+<section id="plate">
+  <div class="join-start">
+    <div class="row">
+      <div class="col-lg-4 ">
+        <div class="plate ">
+          <i style="font-size: 3em;" class="i fas fa-phone"></i>
+        <p>+91 123456789</p>
+        </div>
+
+      </div>
+      <div class="col-lg-4 ">
+        <div class="plate pla1">
+          <i style="font-size: 3em;" class="i fas fa-envelope"></i>
+          <p>abcd@efgh.com</p>
+        </div>
+        </div>
+      <div class="col-lg-4 ">
+        <div class="plate pla2">
+          <i style="font-size: 3em;" class="i fas fa-map-marker-alt"></i>
+          <p>SoHo 94 Broadway, Bibwewadi, Pune, 410101</p>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section id="plate2">
+  <div class="row">
+    <div class="col-lg-6 ">
+      <div class="plate2">
+          <h1>GET IN TOUCH</h1>
+          <br>
+          <h3>Contact us whenever you see animals in distress and need help.</h3>
+          <br>
+           <p>Feel free to contact. Our centres are open 24/7.  </p>
+      </div>
+
+    </div>
+
+    <div class="col-lg-6 ">
+
+      <div class="plate2">
+        <h1 class="heading4 mb-3 font-weight-normal">Contact Us</h1>
+        <form class="contact-form" action="/contact" method="POST">
+          <input type="text" name="top" class="form-control common top1" placeholder="First Name" required autofocus>
+          <input type="text" name="middle" class="form-control common middle1" placeholder="Last Name" required autofocus>
+          <input type="email" name="bottom" class="form-control bottom1 common" placeholder="Email" required>
+
+          <!-- <input type="password" class="form-control common" id="exampleInputPassword1 " name="Password" style="width: 497px;" placeholder="Password"> -->
+
+          <textarea name="message" rows="4" cols="50" required style="" placeholder="Enter your message" class="common txt"></textarea>
+          <button class="btn btn-lg btn-primary btn-block common" type="submit" style="width: 497px;">Submit</button>
+        </form>
+        <p><%=Status%></p>
+      </div>
+
+    </div>
+    </div>
+</section>
+
+
+
+<!-- ----------End--------------->
+<%- include("partials/footer.ejs") %>
