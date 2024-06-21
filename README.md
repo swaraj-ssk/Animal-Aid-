@@ -7,5 +7,3 @@ Write organisation's email and password for Contact Us page to work in app.js at
 Also write your own generater API key and ID at (underscore)API_KEY(underscore) and (underscore)ID(underscore).
 
 Download all modules needed before running application on localhost server.
-
-Website link🔗 : https://shielded-taiga-92768.herokuapp.com 
